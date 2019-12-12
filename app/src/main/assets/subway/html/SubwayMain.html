@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>지하철 승하차 인원 검색</title>
+	<link rel="stylesheet" type="text/css" href="../css/SubwayMain.css">
+	<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="../js/SubwayMain.js"></script>
+</head>
+<body>
+	<div class="headArea">
+		<h1 class="head">지하철 승하차 인원 검색 프로그램</h1>
+		<h3>* 데이터 적재는 매일 3일 전 데이터를 갱신합니다.</h3>
+		<p class="sub">- 원하는 날짜를 선택하고 역명을 입력해주세요.</p>
+		<p class="sub">- 예를 들어 곤지암 혹은 곤지암역</p>
+	</div>
+
+	<div class="searchArea">
+		<input type="date" id="datePicker"/>
+		<input type="text" id="inpKeyword"/>
+		<input type="button" class="btn blue rounded" id="searchBtn" value="검색"/>
+		<input type="button" class="btn blue rounded" id="resetBtn" value="초기화"/>
+	</div>
+
+	<div class="resultArea">
+		<span class="resultTxt">검색 결과가 표시됩니다.</span>
+	</div>
+</body>
+</html>
